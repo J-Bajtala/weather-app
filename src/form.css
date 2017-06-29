@@ -1,0 +1,13 @@
+.form {
+  border: 1px solid red;
+  padding-left: 500px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 10px;
+}
+.form input {
+  width: 100px;
+  height: 20px;
+
+}
