@@ -3,7 +3,7 @@ const fahrenheitConstant = 32;
 const kfConstant = 459.67;
 
 
-const kelvinToCelcius = (kelvin) => (kelvin * 10 - kelvinConstant * 10) / 10;
+const kelvinToCelcius = (kelvin) => (Math.floor(kelvin * 10 - kelvinConstant * 10) / 10);
 
 
 export {kelvinToCelcius}

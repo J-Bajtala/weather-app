@@ -23,11 +23,13 @@
   to { transform: rotate(360deg); }
 }*/
 .App-header {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   height: 150px;
+  width: 500px;
   text-align: center;
   color: white;
   box-sizing: border-box;
   font-family: 'Merriweather', serif;
   padding-top: 30px;
+  margin-left: 400px;
 }

@@ -1,5 +1,26 @@
 .weatherInfo {
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
+  border: 10px solid white;
+  width: 400px;
+  height: 400px;
+  margin-left: 435px;
+  margin-top: 20px;
+
+
+}
+.weatherInfo p {
+  font-family: 'Merriweather', serif;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.weatherNoInfo {
+  width: 100%;
+  height: 400px;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 50px;
 }

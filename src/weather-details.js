@@ -7,16 +7,22 @@ class WeatherInfo extends Component {
     if (this.props.weather === null){
       return this.renderNoInfo()
     }
+
     const{weather}=this.props
     return (
       <div className="weatherInfo">
-        <p>Temperatura:{kelvinToCelcius(weather.temp)}</p>
-        <p>{weather.visibility}</p>
+
+        <p>Temperature: {kelvinToCelcius(weather.temp)}℃</p>
+        <p>Visibility: {weather.visibility} m</p>
+        <p>Humidity: {weather.humidity} %</p>
+        <p>Min Temperature: {kelvinToCelcius(weather.minTemp)} ℃</p>
+        <p>Max Temperature: {kelvinToCelcius(weather.maxTemp)} ℃</p>
+
       </div>
     );
   }
   renderNoInfo(){
-    return <div className="weatherInfo">Brak pogody!</div>
+    return <div className="weatherNoInfo">Type your city to check the weather</div>
   }
 }
 

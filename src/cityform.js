@@ -22,14 +22,14 @@ handleBtnClick() {
 
 handleValueChange(event){
   const city = event.target.value
-  this.setState({city}) 
+  this.setState({city})
 }
 
 
   render() {
     return (
       <div className='form'>
-        <label htmlFor="name">City:</label>
+        <label htmlFor="name">City: </label>
         <input type="text" value={this.state.city} onChange={(event)=>this.handleValueChange(event)}/>
         <button onClick={()=>this.handleBtnClick()}>check!</button>
       </div>

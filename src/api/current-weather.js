@@ -16,7 +16,14 @@ const getWeatherByCityName = (cityname) => {
 const mapResponse = (response) => {
   return {
     temp: response.main.temp,
-    visibility: response.visibility 
+    visibility: response.visibility,
+    humidity: response.main.humidity,
+    minTemp: response.main.temp_min,
+    maxTemp: response.main.temp_max,
+    description: response.weather.description
+
+
+
 
   }
 }
